@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Coffee Shop - Artisan Coffee & Pastries</title>
+    <meta name="description" content="Brew Haven Coffee Shop offers artisan coffee, espresso drinks, and fresh pastries. Visit us for quality beverages and cozy atmosphere.">
+    <meta name="keywords" content="coffee shop, espresso, latte, cappuccino, pastries, breakfast, cafe">
+    <meta name="author" content="Brew Haven Coffee Shop">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brew-haven-coffee-shop.vercel.app/">
+    <meta property="og:title" content="Brew Haven Coffee Shop - Artisan Coffee & Pastries">
+    <meta property="og:description" content="Brew Haven Coffee Shop offers artisan coffee, espresso drinks, and fresh pastries. Visit us for quality beverages and cozy atmosphere.">
+    <meta property="og:image" content="https://brew-haven-coffee-shop.vercel.app/assets/images/hero.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://brew-haven-coffee-shop.vercel.app/">
+    <meta property="twitter:title" content="Brew Haven Coffee Shop - Artisan Coffee & Pastries">
+    <meta property="twitter:description" content="Brew Haven Coffee Shop offers artisan coffee, espresso drinks, and fresh pastries. Visit us for quality beverages and cozy atmosphere.">
+    <meta property="twitter:image" content="https://brew-haven-coffee-shop.vercel.app/assets/images/hero.jpg">
+    
+    <!-- Schema.org LocalBusiness JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Brew Haven Coffee Shop",
+      "image": [
+        "https://brew-haven-coffee-shop.vercel.app/assets/images/hero.jpg"
+       ],
+      "@id": "",
+      "url": "https://brew-haven-coffee-shop.vercel.app/",
+      "telephone": "+1-555-0123",
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Coffee Street",
+        "addressLocality": "Seattle",
+        "postalCode": "98101",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "47.6062",
+        "longitude": "-122.3321"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "menu": "https://brew-haven-coffee-shop.vercel.app/#menu",
+      "servesCuisine": [
+        "Coffee Shop",
+        "Bakery",
+        "Breakfast & Brunch"
+      ]
+    }
+    </script>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Brew Haven</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#hours">Hours</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Artisan Coffee, Crafted with Care</h2>
+                    <p>Where every cup tells a story of passion and precision</p>
+                    <a href="#menu" class="btn-primary">View Our Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="menu-grid">
+                    <!-- Espresso Column -->
+                    <div class="menu-category">
+                        <h3>Espresso</h3>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Espresso shot" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Espresso Shot</h4>
+                                <p class="menu-item-price">$2.50</p>
+                                <p class="menu-item-description">Rich, full-bodied espresso with crema</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Americano" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Americano</h4>
+                                <p class="menu-item-price">$3.00</p>
+                                <p class="menu-item-description">Espresso with hot water for a smooth finish</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Macchiato" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Macchiato</h4>
+                                <p class="menu-item-price">$3.50</p>
+                                <p class="menu-item-description">Espresso marked with steamed milk foam</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Latte Column -->
+                    <div class="menu-category">
+                        <h3>Latte & Specialty</h3>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Classic Latte" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Classic Latte</h4>
+                                <p class="menu-item-price">$4.00</p>
+                                <p class="menu-item-description">Silky steamed milk with espresso</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Cappuccino" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Cappuccino</h4>
+                                <p class="menu-item-price">$4.25</p>
+                                <p class="menu-item-description">Equal parts espresso, steamed milk, and foam</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Mocha" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Mocha</h4>
+                                <p class="menu-item-price">$4.75</p>
+                                <p class="menu-item-description">Espresso with chocolate and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pastries Column -->
+                    <div class="menu-category">
+                        <h3>Pastries & Treats</h3>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Croissant" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Butter Croissant</h4>
+                                <p class="menu-item-price">$3.25</p>
+                                <p class="menu-item-description">Flaky, buttery pastry baked fresh daily</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Muffin" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Blueberry Muffin</h4>
+                                <p class="menu-item-price">$2.75</p>
+                                <p class="menu-item-description">Moist muffin bursting with fresh blueberries</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Scone" class="menu-item-image">
+                            <div class="menu-item-content">
+                                <h4>Cinnamon Scone</h4>
+                                <p class="menu-item-price">$3.00</p>
+                                <p class="menu-item-description">Warm scone with cinnamon sugar glaze</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hours Section -->
+        <section id="hours" class="hours">
+            <div class="container">
+                <h2 class="section-title">Opening Hours</h2>
+                <div class="hours-grid">
+                    <div class="hours-day">
+                        <h3>Weekdays</h3>
+                        <p><strong>Monday - Friday:</strong> 7:00 AM - 6:00 PM</p>
+                    </div>
+                    <div class="hours-day">
+                        <h3>Weekend</h3>
+                        <p><strong>Saturday - Sunday:</strong> 8:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="hours-day">
+                        <h3>Holidays</h3>
+                        <p><strong>Major Holidays:</strong> Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section id="location" class="location">
+            <div class="container">
+                <h2 class="section-title">Find Us</h2>
+                <div class="location-content">
+                    <div class="location-info">
+                        <h3>Brew Haven Coffee Shop</h3>
+                        <p><strong>Address:</strong> 123 Coffee Street, Seattle, WA 98101</p>
+                        <p><strong>Phone:</strong> <a href="tel:+15550123">+1 (555) 012-3456</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@brewhaven.com">info@brewhaven.com</a></p>
+                    </div>
+                    <div class="location-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.18805701503!2d-122.3321!3d47.6062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154ab3611c5d%3A0xf1d3d408d8476c84!2s123+Coffee+St%2C+Seattle%2C+WA+98101!5e0!3m2!1sen!2sus!4v1609459200000!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Location of Brew Haven Coffee Shop">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <form id="contact-form" class="contact-form" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                        <div class="form-error" id="name-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                        <div class="form-error" id="email-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message*</label>
+                        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                        <div class="form-error" id="message-error"></div>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                    <div id="form-success" class="form-success" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Brew Haven</h3>
+                    <p>Quality coffee, community focus</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                </div>
+                <div class="footer-legal">
+                    <p>&copy; 2024 Brew Haven Coffee Shop. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
